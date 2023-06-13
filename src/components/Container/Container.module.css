@@ -1,0 +1,13 @@
+.container section {
+    margin: 10vh 10vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container section {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+    }
+}
