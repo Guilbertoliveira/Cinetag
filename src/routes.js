@@ -11,8 +11,11 @@ export default function AppRoutes() {
       <Cabecalho></Cabecalho>
       <Container>
         <Routes>
-          <Route index element={<Inicio></Inicio>} />
-          <Route path="/favoritos" element={<Favoritos></Favoritos>} />
+          <Route index element={<Inicio banner={'home'}></Inicio>} />
+          <Route
+            path="/favoritos"
+            element={<Favoritos banner={'favoritos'}></Favoritos>}
+          />
         </Routes>
       </Container>
       <Rodape></Rodape>
