@@ -7,5 +7,12 @@
 }
 
 .imgLink {
-    width: 100px;
+    width: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho {
+        flex-direction: column;
+        padding: 0;
+    }
 }
