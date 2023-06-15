@@ -1,4 +1,13 @@
 iframe {
     height: 80vh;
-    width: 80vw;
+    width: 60vw;
+}
+
+@media screen and (max-width: 767px) {
+    iframe {
+        margin: 40px 0px 80px 0px;
+        height: 50vh;
+        width: 90vw;
+    }
+
 }

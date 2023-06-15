@@ -3,6 +3,7 @@ import Container from "components/Container";
 import Rodape from "components/Rodape";
 import FavoritosProvider from "contextos/favoritos";
 import { Outlet } from "react-router-dom";
+import styles from './PaginaBase.module.css'
 
 export default function PaginaBase() {
     return (
@@ -10,7 +11,7 @@ export default function PaginaBase() {
             <header>
                 <Cabecalho></Cabecalho>
             </header>
-            <main>
+            <main className={styles.main}>
                 <FavoritosProvider>
                     <Container>
                         <Outlet />

@@ -3,9 +3,22 @@ import Titulo from 'components/Titulo';
 import styles from './Inicio.module.css';
 import videos from 'json/db.json';
 import Banner from 'components/Banner';
+import { useEffect, useState } from 'react';
 
 export default function Inicio({ banner }) {
-  console.log(videos);
+
+  // Caso deseje mockar só descomentar e remover o import
+  // const [videos, setVideos] = useState([]);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const response = await fetch('http://localhost:3000/videos');
+  //     const data = await response.json();
+  //     setVideos(data)
+  //   };
+
+  //   fetchData()
+  // }, []);
+
   return (
     <>
       <Banner imagem={banner}></Banner>
