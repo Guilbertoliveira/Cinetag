@@ -2,4 +2,16 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 0 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0px 0px;
+
+    }
+
 }

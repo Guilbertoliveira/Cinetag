@@ -16,11 +16,6 @@ export default function Inicio({ banner }) {
         {videos.map((item) => (
           <Card {...item} key={item.id}></Card>
         ))}
-        <Card
-          id="1"
-          titulo="Gato bonifacio"
-          capa="https://thecatapi.com/api/images/get?format-src&type=png"
-        />{' '}
       </section>
     </>
   );
