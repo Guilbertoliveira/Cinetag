@@ -24,3 +24,8 @@
 .favoritar {
     width: 25px;
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+}
