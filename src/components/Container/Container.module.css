@@ -1,13 +1,15 @@
 .container section {
-    margin: 10vh 10vw;
     text-align: center;
+    padding: 50px 200px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .container section {
         display: flex;
         flex-direction: column;
         margin: 0px;
         align-items: center;
+        padding: 0px;
+
     }
 }
