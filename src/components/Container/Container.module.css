@@ -1,13 +1,13 @@
 .container section {
     text-align: center;
-    padding: 50px 200px;
+    padding: 50px 100px;
 }
 
 @media screen and (max-width: 767px) {
     .container section {
         display: flex;
         flex-direction: column;
-        margin: 0px;
+        margin: 0px 0px 50px 0px;
         align-items: center;
         padding: 0px;
 

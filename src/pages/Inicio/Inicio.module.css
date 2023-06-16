@@ -1,17 +1,16 @@
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 20px 200px 20px 200px;
+    margin: 0 10vw;
 }
 
 @media screen and (max-width: 767px) {
     .container {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
-        padding: 0px 0px;
-
+        margin: 0px 0px;
     }
 
 }
