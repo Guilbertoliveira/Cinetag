@@ -1,9 +1,9 @@
-import styles from './Rodape.module.css';
+import styles from './Footer.module.css';
 import baseboard from './baseboard.png';
 
-export default function Rodape() {
+export default function Footer() {
   return (
-    <footer className={styles.rodape}>
+    <footer className={styles.Footer}>
 
 
       <h2>Desenvolvido por Guilbert.</h2>

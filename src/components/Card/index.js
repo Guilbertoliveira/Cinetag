@@ -1,13 +1,13 @@
 import { useFavoriteContext } from 'context/favorite';
 import styles from './Card.module.css';
-import iconeFavoritar from './favoritar.png';
-import iconeDesfavoritar from './desfavoritar.png';
+import favoriteon from './favoriteon.png';
+import favoriteoff from './faviriteoff.png';
 import { Link } from 'react-router-dom';
 
 export default function Card({ id, title, capa }) {
   const { favorite, addFavorite } = useFavoriteContext();
-  const ehFavorito = favorite.some((fav) => fav.id === id);
-  const icone = ehFavorito ? iconeFavoritar : iconeDesfavoritar;
+  const isFavorite = favorite.some((fav) => fav.id === id);
+  const icone = isFavorite ? favoriteon : favoriteoff;
 
   return (
     <div className={styles.container}>
