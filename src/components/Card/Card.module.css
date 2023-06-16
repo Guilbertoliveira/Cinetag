@@ -8,12 +8,16 @@
     justify-content: space-between;
     margin-left: 10px;
     border-radius: 3px;
+    overflow: hidden;
+    font-family: 'Lilita One', cursive;
 }
 
 .capa {
-    width: 100%;
+    width: 101%;
     height: 300px;
     border-radius: 5px;
+    right: 2px;
+    position: relative;
 }
 
 .container h2,
