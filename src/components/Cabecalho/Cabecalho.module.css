@@ -7,8 +7,10 @@
 }
 
 .imgLink {
-    width: 150px;
+    width: 120px;
 }
+
+
 
 @media screen and (max-width: 480px) {
     .cabecalho {
