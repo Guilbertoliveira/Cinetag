@@ -1,6 +1,6 @@
-import styles from './NaoEncontrada.module.css'
+import styles from './NotFound.module.css'
 
-export default function NaoEncontrada() {
+export default function NotFound() {
     return (
         <section className={styles.container}>
             <h2>Ops !</h2>

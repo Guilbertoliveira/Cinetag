@@ -1,20 +1,20 @@
 import Banner from 'components/Banner';
-import styles from './Favoritos.module.css';
-import Titulo from 'components/Titulo';
+import styles from './Favorite.module.css';
+import Title from 'components/Title';
 import Card from 'components/Card';
-import { useFavoritoContext } from 'context/favoritos';
+import { useFavoriteContext } from 'context/favorite';
 
-export default function Favoritos({ banner }) {
-  const { favorito } = useFavoritoContext();
+export default function Favorite({ banner }) {
+  const { favorite } = useFavoriteContext();
 
   return (
     <>
       <Banner imagem={banner}></Banner>
-      <Titulo>
+      <Title>
         <h1>Meus Favoritos</h1>
-      </Titulo>
+      </Title>
       <section className={styles.container}>
-        {favorito.map((cardItem) => (
+        {favorite.map((cardItem) => (
           <Card {...cardItem} key={cardItem.id} />
         ))}
       </section>
