@@ -1,7 +1,7 @@
-import Favoritos from 'pages/Favoritos';
-import Inicio from 'pages/Inicio';
-import NaoEncontrada from 'pages/NaoEncontrada';
-import PaginaBase from 'pages/PaginaBase';
+import Favorite from 'pages/Favorite';
+import Home from 'pages/Home';
+import NotFound from 'pages/NotFound';
+import PageDefault from 'pages/PageDefault';
 import Player from 'pages/Player';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -10,14 +10,14 @@ export default function AppRoutes() {
     <BrowserRouter>
 
       <Routes>
-        <Route path='/' element={<PaginaBase />}>
-          <Route index element={<Inicio banner={'home'}></Inicio>} />
+        <Route path='/' element={<PageDefault />}>
+          <Route index element={<Home banner={'home'}></Home>} />
           <Route
             path="favoritos"
-            element={<Favoritos banner={'favoritos'}></Favoritos>}
+            element={<Favorite banner={'favorite'}></Favorite>}
           />
           <Route path=":id" element={<Player />} />
-          <Route path="*" element={<NaoEncontrada />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
 

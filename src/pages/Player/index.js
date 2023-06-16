@@ -1,8 +1,8 @@
 import Banner from 'components/Banner'
 import styles from './Player.module.css'
-import Titulo from 'components/Titulo'
+import Title from 'components/Title'
 import { useParams } from 'react-router-dom'
-import NaoEncontrada from 'pages/NaoEncontrada';
+import NaoEncontrada from 'pages/NotFound';
 import { useEffect, useState } from 'react';
 
 
@@ -23,9 +23,9 @@ export default function Player() {
     return (
         <>
             <Banner imagem="player" />
-            <Titulo><h1>Player</h1></Titulo>
+            <Title><h1>Player</h1></Title>
             <section className={styles.container}>
-                <iframe src={video.link} title={video.titulo} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src={video.link} title={video.Title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
             </section>
 
         </>
