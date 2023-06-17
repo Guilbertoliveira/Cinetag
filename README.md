@@ -10,10 +10,10 @@
 <p>Design using Context Api and react-router-dom libraries, I made several design improvements which will be mentioned in a separate topic.</p>
 
 <h2 >Version Mobile</h2>
-<img src="https://github.com/Guilbertoliveira/Cinetag/assets/41201436/5ff21fb9-19a8-47df-af36-6e156c530bfa" alt="version mobile">
+<img src="https://github.com/Guilbertoliveira/Cinetag/assets/41201436/03cac1d2-4a38-4d58-9e41-8d7293edeb94" alt="version mobile">
 
 <h2>Version Desktop</h2>
-<img src="https://github.com/Guilbertoliveira/Cinetag/assets/41201436/30f48ccf-2684-4a49-ac53-bffc6a7d469c" alt="version desktop">
+<img src="https://github.com/Guilbertoliveira/Cinetag/assets/41201436/155fe750-f2c9-423b-a693-f3ac7e5f6626" alt="version desktop">
 
 <h2>Technologies used</h2>
 <div>
