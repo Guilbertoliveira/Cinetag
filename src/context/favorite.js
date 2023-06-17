@@ -15,23 +15,23 @@ export default function FavoriteProvider({ children }) {
 }
 
 export function useFavoriteContext() {
-  //criando um hook
+  //creating a hook
   const { favorite, setFavorite } = useContext(favoriteContext);
 
-  function addFavorite(novoFavorito) {
-    const favoritoRepetido = favorite.some(
-      (item) => item.id === novoFavorito.id
-    ); //verificando se é repetido ou não, true ou false
+  function addFavorite(newFavorite) {
+    const repeatedFavorite = favorite.some(
+      (item) => item.id === newFavorite.id
+    ); //checking if it is repeated or not, true or false
 
-    let novaLista = [...favorite];
+    let newList = [...favorite];
 
-    if (!favoritoRepetido) {
-      //se ele n tiver na lista, adiciona
-      novaLista.push(novoFavorito);
-      return setFavorite(novaLista);
+    if (!repeatedFavorite) {
+      //if not in the list, add
+      newList.push(newFavorite);
+      return setFavorite(newList);
     }
-    novaLista = favorite.filter((fav) => fav.id !== novoFavorito.id);
-    return setFavorite(novaLista);
+    newList = favorite.filter((fav) => fav.id !== newFavorite.id);
+    return setFavorite(newList);
   }
 
   return {

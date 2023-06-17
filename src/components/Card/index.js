@@ -4,7 +4,7 @@ import favoriteon from './favoriteon.png';
 import favoriteoff from './faviriteoff.png';
 import { Link } from 'react-router-dom';
 
-export default function Card({ id, title, capa }) {
+export default function Card({ id, title, coverImage }) {
   const { favorite, addFavorite } = useFavoriteContext();
   const isFavorite = favorite.some((fav) => fav.id === id);
   const icone = isFavorite ? favoriteon : favoriteoff;
@@ -12,14 +12,14 @@ export default function Card({ id, title, capa }) {
   return (
     <div className={styles.container}>
       <Link className={styles.link} to={`/${id}`}>
-        <img src={capa} alt={title} className={styles.capa}></img>
+        <img src={coverImage} alt={title} className={styles.coverImage}></img>
         <h2>{title}</h2>
       </Link>
       <img
         src={icone}
         alt="Favoritar filme"
         className={styles.favorite}
-        onClick={() => addFavorite({ id, title, capa })}
+        onClick={() => addFavorite({ id, title, coverImage })}
       />
     </div>
   );

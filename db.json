@@ -3,49 +3,49 @@
     {
       "id": 1,
       "title": "O labirinto do Logcat",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
       "link": "https://www.youtube.com/embed/ypvGqZGJBls"
     },
     {
       "id": 2,
       "title": "Um componente no espaço",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
       "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
     },
     {
       "id": 3,
       "title": "O poderoso JavaScript",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
       "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
     },
     {
       "id": 4,
       "title": "Dart, o Caçador de Andróides",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
       "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
     },
     {
       "id": 5,
       "title": "O labirinto do Logcat",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
       "link": "https://www.youtube.com/embed/ypvGqZGJBls"
     },
     {
       "id": 6,
       "title": "Um componente no espaço",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
       "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
     },
     {
       "id": 7,
       "title": "O poderoso JavaScript",
-      "capa": "https://avatars.githubusercontent.com/u/10711649?v=4",
+      "coverImage": "https://avatars.githubusercontent.com/u/10711649?v=4",
       "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
     },
     {
       "id": 8,
       "title": "Dart, o Caçador de Andróides",
-      "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
+      "coverImage": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
       "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
     }
   ]
