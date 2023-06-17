@@ -4,7 +4,7 @@ export const favoriteContext = createContext({});
 
 favoriteContext.displayName = 'favorite';
 
-export default function FavoritosProvider({ children }) {
+export default function FavoriteProvider({ children }) {
   const [favorite, setFavorite] = useState([]);
 
   return (

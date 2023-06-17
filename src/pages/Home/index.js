@@ -5,17 +5,15 @@ import Banner from 'components/Banner';
 import { useEffect, useState } from 'react';
 
 export default function Home({ banner }) {
-
-
   const [videos, setVideos] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch('http://localhost:3000/videos');
       const data = await response.json();
-      setVideos(data)
+      setVideos(data);
     };
 
-    fetchData()
+    fetchData();
   }, []);
 
   return (

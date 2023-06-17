@@ -3,8 +3,10 @@
 </div>
 
 <h2>:hammer:Project Status:hammer:</h2>
+<p>Finished project</p>
 
 <h2>Project description</h2>
+<p>Design using Context Api and react-router-dom libraries, I made several design improvements which will be mentioned in a separate topic.</p>
 
 <h2 >Version Mobile</h2>
 
@@ -27,16 +29,17 @@
 
 </div>   
 <h2> Project link </h2>
+<a href="https://cinetag-two-sable.vercel.app/">Link vercel</a>
 
 <h2>Contributing</h2>
 
 <h2>Conventional commits</h2>
 <ul>
-<li>feat: (new feature for the user, not a new feature for build script)</li>
-<li>fix: (bug fix for the user, not a fix to a build script)</li>
-<li>docs: (changes to the documentation)</li>
-<li>style: (formatting, missing semi colons, etc; no production code change)</li>
-<li>refactor: (refactoring production code, eg. renaming a variable)</li>
-<li>test: (adding missing tests, refactoring tests; no production code change)</li>
-<li>chore: (updating grunt tasks etc; no production code change)</li> 
+    <li>feat: (new feature for the user, not a new feature for build script)</li>
+    <li>fix: (bug fix for the user, not a fix to a build script)</li>
+    <li>docs: (changes to the documentation)</li>
+    <li>style: (formatting, missing semi colons, etc; no production code change)</li>
+    <li>refactor: (refactoring production code, eg. renaming a variable)</li>
+    <li>test: (adding missing tests, refactoring tests; no production code change)</li>
+    <li>chore: (updating grunt tasks etc; no production code change)</li>
 </ul>
