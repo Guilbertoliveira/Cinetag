@@ -1,6 +1,11 @@
 <div align="center">
 <img src="https://github.com/Guilbertoliveira/Cinetag/blob/main/public/img/popcorn.png" width="50">
 <h1>Cinetag</h1>
+    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Guilbertoliveira/Cinetag" />
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Guilbertoliveira/Cinetag" />
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Guilbertoliveira/Cinetag" />
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Guilbertoliveira/Cinetag" />
+    <img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/Cinetag" />
 </div>
 
 <h2>:hammer:Project Status:hammer:</h2>
