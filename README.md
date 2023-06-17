@@ -3,8 +3,10 @@
 </div>
 
 <h2>:hammer:Project Status:hammer:</h2>
+<p>Finished project</p>
 
 <h2>Project description</h2>
+<p>Design using Context Api and react-router-dom libraries, I made several design improvements which will be mentioned in a separate topic.</p>
 
 <h2 >Version Mobile</h2>
 
@@ -27,6 +29,7 @@
 
 </div>   
 <h2> Project link </h2>
+<a href="https://cinetag-two-sable.vercel.app/">Link vercel</a>
 
 <h2>Contributing</h2>
 

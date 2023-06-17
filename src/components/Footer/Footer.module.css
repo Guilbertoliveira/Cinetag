@@ -1,6 +1,6 @@
-.Footer {
-    background-color: var(--preto);
-    color: var(--branco);
+.footer {
+    background-color: var(--black);
+    color: var(--white);
     text-align: center;
     position: fixed;
     bottom: 0px;
@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.Footer h2 {
+.footer h2 {
     font-weight: 100;
     font-size: 16px;
 }

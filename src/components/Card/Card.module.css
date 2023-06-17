@@ -2,7 +2,7 @@
     padding: 0 0 1em 0;
     margin-top: 0.5em;
     width: 300px;
-    background-color: var(--cinza);
+    background-color: var(--gray);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,11 +21,11 @@
 }
 
 .container h2,
-.favoritar {
+.favorite {
     padding: 0 1em;
 }
 
-.favoritar {
+.favorite {
     width: 25px;
 }
 

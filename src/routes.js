@@ -8,9 +8,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 export default function AppRoutes() {
   return (
     <BrowserRouter>
-
       <Routes>
-        <Route path='/' element={<PageDefault />}>
+        <Route path="/" element={<PageDefault />}>
           <Route index element={<Home banner={'home'}></Home>} />
           <Route
             path="favoritos"
@@ -20,7 +19,6 @@ export default function AppRoutes() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-
     </BrowserRouter>
   );
 }
